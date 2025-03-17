@@ -1,4 +1,4 @@
-/* Estilos generales para la página */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
@@ -22,7 +22,7 @@ header p {
     margin-top: 10px;
 }
 
-/* Contenedor principal */
+
 .container {
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@ header p {
     margin-top: 40px;
 }
 
-/* Estilo para el cuadro con la tabla */
+
 .form-box {
     background-color: white;
     padding: 20px;
@@ -40,7 +40,7 @@ header p {
     max-width: 700px;
 }
 
-/* Estilos para la tabla */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -62,7 +62,7 @@ td {
     background-color: #f9f9f9;
 }
 
-/* Asegura que la página sea responsiva */
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
