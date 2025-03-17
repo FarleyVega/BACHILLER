@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FARLEY VEGA CUIPAL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado con tu nombre y título -->
+    <header>
+        <h1>FARLEY VEGA CUIPAL</h1>
+        <p>BACHILLER EN INGENIERÍA AMBIENTAL</p>
+    </header>
+
+    <!-- Contenedor para la tabla -->
+    <div class="container">
+        <div class="form-box">
+            <!-- Tabla con la información -->
+            <table>
+                <tr>
+                    <th>Tipo de documento</th>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th>Número de documento</th>
+                    <td>73531195</td>
+                </tr>
+                <tr>
+                    <th>Abreviatura Grado / Título</th>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <th>Grado o título se obtuvo por</th>
+                    <td>BACHILLER AUTOMÁTICO</td>
+                </tr>
+                <tr>
+                    <th>Modalidad de Estudio</th>
+                    <td>P</td>
+                </tr>
+                <tr>
+                    <th>Número de resolución</th>
+                    <td>0438-2024-UCV</td>
+                </tr>
+                <tr>
+                    <th>Fecha de Resolución</th>
+                    <td>21/12/2024</td>
+                </tr>
+                <tr>
+                    <th>Tipo de emisión del diploma</th>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th>Código del Libro</th>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <th>Código del Folio</th>
+                    <td>561</td>
+                </tr>
+                <tr>
+                    <th>Nº de registro en el libro</th>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Incluir archivo de JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* Estilo para el cuadro con la tabla */
+.form-box {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+/* Asegura que la página sea responsiva */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .form-box {
+        width: 90%;
+    }
+}
